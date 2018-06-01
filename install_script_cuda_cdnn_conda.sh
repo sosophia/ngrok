@@ -29,8 +29,8 @@ cd /tmp && wget https://repo.continuum.io/archive/Anaconda2-5.1.0-Linux-x86_64.s
 bash Anaconda2-5.1.0-Linux-x86_64.sh
 
 # For Miniconda3
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
+# wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+# bash Miniconda3-latest-Linux-x86_64.sh
 
 source ~/.bashrc
 cd ~

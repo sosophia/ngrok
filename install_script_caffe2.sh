@@ -1,5 +1,5 @@
-# this will install w/ python 3.6.5
-conda create -yn dnt && source activate dnt
+# this will install w/ python 2.7
+conda create -yn dnt python=2.7 && source activate dnt
 conda install -y \
     future \
     gflags \
@@ -25,9 +25,9 @@ rm -rf build && mkdir build && cd build
 # useful in debugging.
 
 # FORCE CMAKE compiler
-export CC=/usr/bin/gcc-6
-export CXX=/usr/bin/g++-6
-cmake -DCMAKE_PREFIX_PATH=~/anaconda2/envs/dnt -DCMAKE_INSTALL_PREFIX=~/anaconda2/envs/dnt ..
+# export CC=/usr/bin/gcc-6
+# export CXX=/usr/bin/g++-6
+# cmake -DCMAKE_PREFIX_PATH=~/anaconda2/envs/dnt -DCMAKE_INSTALL_PREFIX=~/anaconda2/envs/dnt ..
 
 # check python version and dir
 which python
