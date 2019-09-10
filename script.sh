@@ -26,7 +26,7 @@ echo "service started"
 #download ngrok 
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
-./ngrok authtoken 2oA4spcYkfLFkwtG8rsfW_7EANBPmCAFC6KAoSZ2jeU
+./ngrok authtoken 1QeTgutqQpqurOyBhMXmp8D06Mt_4fNAzmnszbKZz7CmgUs9K
 
 echo "ngrok stated"
 
